@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sgpr
+Comment=Sgpr P2P Cryptocurrency
+Comment[fr]=Sgpr, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Sgpr, eşten eşe kriptografik sanal para birimi
+Exec=sgpr-qt %u
+Terminal=false
+Type=Application
+Icon=sgpr128
+MimeType=x-scheme-handler/sgpr;
+Categories=Office;Finance;

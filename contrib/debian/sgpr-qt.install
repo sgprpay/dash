@@ -1,0 +1,6 @@
+usr/local/bin/sgpr-qt usr/bin
+share/pixmaps/sgpr32.xpm usr/share/pixmaps
+share/pixmaps/sgpr16.xpm usr/share/pixmaps
+share/pixmaps/sgpr128.png usr/share/pixmaps
+debian/sgpr-qt.desktop usr/share/applications
+debian/sgpr-qt.protocol usr/share/kde4/services/

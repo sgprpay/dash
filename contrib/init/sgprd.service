@@ -1,0 +1,22 @@
+[Unit]
+Description=Sgpr's distributed currency daemon
+After=network.target
+
+[Service]
+User=sgprcore
+Group=sgprcore
+
+Type=forking
+PIDFile=/var/lib/sgprd/sgprd.pid
+ExecStart=/usr/bin/sgprd -daemon -pid=/var/lib/sgprd/sgprd.pid \
+-conf=/etc/sgprcore/sgpr.conf -datadir=/var/lib/sgprd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

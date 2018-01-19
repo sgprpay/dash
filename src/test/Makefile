@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. sgpr_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. sgpr_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. sgpr_test_check
