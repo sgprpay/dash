@@ -188,7 +188,7 @@
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>Sgpr Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</source>
+        <source>Sgpr will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</source>
         <translation>達世幣核心現在要關閉，以便完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取達世幣。</translation>
     </message>
     <message>
@@ -242,11 +242,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Sgpr Core can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Sgpr can no longer continue safely and will quit.</source>
         <translation>發生致命錯誤。達世幣核心軟體不再能安全地繼續運行下去，程式將會關閉。</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
+        <source>Sgpr</source>
         <translation>達世幣核心</translation>
     </message>
     <message>
@@ -306,11 +306,11 @@
         <translation>結束應用程式</translation>
     </message>
     <message>
-        <source>&amp;About Sgpr Core</source>
+        <source>&amp;About Sgpr</source>
         <translation>關於達世幣核心(&amp;A)</translation>
     </message>
     <message>
-        <source>Show information about Sgpr Core</source>
+        <source>Show information about Sgpr</source>
         <translation>顯示達世幣核心的相關資訊</translation>
     </message>
     <message>
@@ -326,7 +326,7 @@
         <translation>選項(&amp;O)...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Sgpr Core</source>
+        <source>Modify configuration options for Sgpr</source>
         <translation>修改達世幣核心的設定選項</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>命令列選項(&amp;C)</translation>
     </message>
     <message>
-        <source>Show the Sgpr Core help message to get a list with possible Sgpr Core command-line options</source>
+        <source>Show the Sgpr help message to get a list with possible Sgpr command-line options</source>
         <translation>顯示達世幣核心的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
     <message>
@@ -514,7 +514,7 @@
         <translation>分頁工具列</translation>
     </message>
     <message>
-        <source>Sgpr Core client</source>
+        <source>Sgpr client</source>
         <translation>達世幣核心客戶端軟體</translation>
     </message>
     <message numerus="yes">
@@ -974,7 +974,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Sgpr Core</source>
+        <source>Sgpr</source>
         <translation>達世幣核心</translation>
     </message>
     <message>
@@ -986,7 +986,7 @@
         <translation>(%1 位元)</translation>
     </message>
     <message>
-        <source>About Sgpr Core</source>
+        <source>About Sgpr</source>
         <translation>關於達世幣核心</translation>
     </message>
     <message>
@@ -1034,8 +1034,8 @@
         <translation>匿名發送資訊</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;匿名發送基礎知識&lt;/h3&gt; 匿名發送通過隱藏您的資金來源為您提供真正的財務隱私。您的錢包中所有的達世幣都由不同的“輸入”組成，您可以將其視為分開的離散硬幣。&lt;br&gt; 匿名發送使用創新的方法將您的輸入與其他兩個人的輸入相結合，而過程中不會讓您的達世幣離開您的錢包。每時每刻，您仍然控制著您的錢。&lt;hr&gt; &lt;b&gt;匿名發送的運作原理如下:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;匿名發送首先將您的交易分柝成多個標準面額的交易。這些標準面額分別為0.01 SGPR, 0.1 SGPR, 1 SGPR 和10 SGPR --有點像您每天使用的紙幣。&lt;/li&gt; &lt;li&gt;您的錢包然後發送請求到網絡上有專門配置的軟件節點，稱為“主節點”。這些主節點會收到您希望混合一些資金的通知。沒有可識別的信息發送到主節點，所以他們永遠不會知道你是"誰"。&lt;/li&gt; &lt;li&gt;當另外兩個人發送類似的消息時，表示希望混合相同的面額的話，混合會話就會開始。相關的主節點會混合這些輸入，並指示所有三個用戶的錢包將已經轉換了輸入的交易支付給自己。你的錢包直接支付給自己，但是付給不同的位址 (稱之為找零位址)。&lt;/li&gt; &lt;li&gt;為了完全掩蓋您的資金來源，您的錢包必須以每個面額來重複此過程數次。每次這個過程完成後，都稱之為一個 "循環"。每個循環的匿名發送都會令確定您的資金來源的工作倍加困難。&lt;/li&gt; &lt;li&gt;這種混合過程發生在後台，而不需要您進行任何操作。當您想進行交易時，您的資金將已被匿名處理。不需再花額外的時間等待。&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;重要:&lt;/b&gt;您的錢包只能擁有1000個"找零位址。" 每次混合事件發生時，最多會使用9個找零位址。這意味著這1000個位址可以容許100次的混合事件。當其的中900個已經被使用後，您的錢包必須創建更多的位址。如果您啟用了自動備份，則只能夠這樣做。&lt;br&gt;因此，禁用備份的用戶也將禁用匿名發送。&lt;hr&gt;如欲了解更多信息請參閱&lt;a href="https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;</translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;匿名發送基礎知識&lt;/h3&gt; 匿名發送通過隱藏您的資金來源為您提供真正的財務隱私。您的錢包中所有的達世幣都由不同的“輸入”組成，您可以將其視為分開的離散硬幣。&lt;br&gt; 匿名發送使用創新的方法將您的輸入與其他兩個人的輸入相結合，而過程中不會讓您的達世幣離開您的錢包。每時每刻，您仍然控制著您的錢。&lt;hr&gt; &lt;b&gt;匿名發送的運作原理如下:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;匿名發送首先將您的交易分柝成多個標準面額的交易。這些標準面額分別為0.01 SGPR, 0.1 SGPR, 1 SGPR 和10 SGPR --有點像您每天使用的紙幣。&lt;/li&gt; &lt;li&gt;您的錢包然後發送請求到網絡上有專門配置的軟件節點，稱為“主節點”。這些主節點會收到您希望混合一些資金的通知。沒有可識別的信息發送到主節點，所以他們永遠不會知道你是"誰"。&lt;/li&gt; &lt;li&gt;當另外兩個人發送類似的消息時，表示希望混合相同的面額的話，混合會話就會開始。相關的主節點會混合這些輸入，並指示所有三個用戶的錢包將已經轉換了輸入的交易支付給自己。你的錢包直接支付給自己，但是付給不同的位址 (稱之為找零位址)。&lt;/li&gt; &lt;li&gt;為了完全掩蓋您的資金來源，您的錢包必須以每個面額來重複此過程數次。每次這個過程完成後，都稱之為一個 "循環"。每個循環的匿名發送都會令確定您的資金來源的工作倍加困難。&lt;/li&gt; &lt;li&gt;這種混合過程發生在後台，而不需要您進行任何操作。當您想進行交易時，您的資金將已被匿名處理。不需再花額外的時間等待。&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;重要:&lt;/b&gt;您的錢包只能擁有1000個"找零位址。" 每次混合事件發生時，最多會使用9個找零位址。這意味著這1000個位址可以容許100次的混合事件。當其的中900個已經被使用後，您的錢包必須創建更多的位址。如果您啟用了自動備份，則只能夠這樣做。&lt;br&gt;因此，禁用備份的用戶也將禁用匿名發送。&lt;hr&gt;如欲了解更多信息請參閱&lt;a href="https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -1045,15 +1045,15 @@
         <translation>歡迎</translation>
     </message>
     <message>
-        <source>Welcome to Sgpr Core.</source>
+        <source>Welcome to Sgpr.</source>
         <translation>歡迎使用達世幣核心</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Sgpr will store its data.</source>
         <translation>因為這是程式第一次啓動，你可以選擇達世幣核心儲存資料的地方。</translation>
     </message>
     <message>
-        <source>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>達世幣核心會下載並儲存一份達世幣區塊鏈的副本。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
     </message>
     <message>
@@ -1065,7 +1065,7 @@
         <translation>使用自定的資料目錄:</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
+        <source>Sgpr</source>
         <translation>達世幣核心</translation>
     </message>
     <message>
@@ -1317,11 +1317,11 @@
         <translation>錢包(&amp;W)</translation>
     </message>
     <message>
-        <source>Automatically start Sgpr Core after logging in to the system.</source>
+        <source>Automatically start Sgpr after logging in to the system.</source>
         <translation>在登入系統後自動啓動達世幣核心。</translation>
     </message>
     <message>
-        <source>&amp;Start Sgpr Core on system login</source>
+        <source>&amp;Start Sgpr on system login</source>
         <translation>系統登入時啟動達世幣核心(&amp;S)</translation>
     </message>
     <message>
@@ -1365,7 +1365,7 @@
         <translation>此金額為關閉匿名發送的門檻。</translation>
     </message>
     <message>
-        <source>Automatically open the Sgpr Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Sgpr client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>自動在路由器上開放達世幣核心客戶端的通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
     </message>
     <message>
@@ -1389,7 +1389,7 @@
         <translation>當視窗關閉時，把應用程式縮到最小，而不是結束。當勾選這個選項時，只能夠用選單中的結束來關掉應用程式。</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Sgpr Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Sgpr.</source>
         <translation>可以在這裡設定用戶介面的語言。這個設定在重啓達世幣核心後才會生效。</translation>
     </message>
     <message>
@@ -1945,7 +1945,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Sgpr Core</source>
+        <source>Sgpr</source>
         <translation>達世幣核心</translation>
     </message>
     <message>
@@ -1965,7 +1965,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>讀取主節點配置文件時出錯: %1</translation>
     </message>
     <message>
-        <source>Sgpr Core didn't yet exit safely...</source>
+        <source>Sgpr didn't yet exit safely...</source>
         <translation>達世幣核心程序還沒有安全退出...</translation>
     </message>
     <message>
@@ -2139,7 +2139,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>內存使用情況</translation>
     </message>
     <message>
-        <source>Open the Sgpr Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Sgpr debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>從目前的資料目錄下開啓達世幣核心的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
     </message>
     <message>
@@ -2355,7 +2355,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>解禁(&amp;U)</translation>
     </message>
     <message>
-        <source>Welcome to the Sgpr Core RPC console.</source>
+        <source>Welcome to the Sgpr RPC console.</source>
         <translation>歡迎使用達世幣核心 RPC 主控台。</translation>
     </message>
     <message>
@@ -3001,7 +3001,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sgpr Core is shutting down...</source>
+        <source>Sgpr is shutting down...</source>
         <translation>達世幣核心正在關閉中...</translation>
     </message>
     <message>
@@ -3155,7 +3155,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
+        <source>Sgpr</source>
         <translation>達世幣核心</translation>
     </message>
     <message>
@@ -3167,7 +3167,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>位元幣核心開發人員</translation>
     </message>
     <message>
-        <source>The Sgpr Core developers</source>
+        <source>The Sgpr developers</source>
         <translation>達世幣核心開發人員</translation>
     </message>
 </context>
@@ -3765,7 +3765,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>和指定的位址繫結，並且一直在指定位址聽候連線。IPv6 請用 [主機]:通訊埠 這種格式</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</source>
         <translation>沒辦法鎖定資料目錄 %s。達世幣核心可能已經在執行了。</translation>
     </message>
     <message>
@@ -3805,7 +3805,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>這是個還沒發表的測試版本 - 使用請自負風險 - 請不要用來開採或商業應用</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sgpr Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Sgpr is probably already running.</source>
         <translation>沒辦法繫結在這台電腦上的 %s 。達世幣核心可能已經在執行了。</translation>
     </message>
     <message>
@@ -4077,7 +4077,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>版權為位元幣核心開發人員自西元 2009 至 %i 年起所有</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Sgpr Core Developers</source>
+        <source>Copyright (C) 2014-%i The Sgpr Developers</source>
         <translation>版權為達世幣核心開發人員自西元 2014 至 %i 年起所有</translation>
     </message>
     <message>
@@ -4093,7 +4093,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>連接到主節點時發生錯誤。</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr</source>
         <translation>載入 wallet.dat 檔案時發生錯誤: 這個錢包需要新版的達世幣核心</translation>
     </message>
     <message>
@@ -4149,7 +4149,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>資訊</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sgpr Core is shutting down.</source>
+        <source>Initialization sanity check failed. Sgpr is shutting down.</source>
         <translation>初始化時的基本檢查失敗了。達世幣核心即將關閉。</translation>
     </message>
     <message>
@@ -4393,7 +4393,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>用戶代理註釋 (%s) 包含不安全的字符。</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sgpr Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Sgpr to complete</source>
         <translation>錢包需要重寫: 請重新啓動達世幣核心來完成</translation>
     </message>
     <message>
@@ -4505,7 +4505,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>單一的錢包交易允許付出最高的總手續費 (共 %s) ，設定太低的話，可能會無法進行資料量大的交易(預設值: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sgpr Core will not work properly.</source>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Sgpr will not work properly.</source>
         <translation>請檢查電腦日期和時間是否正確！達世幣核心沒辦法在時鐘不準的情況下正常運作。</translation>
     </message>
     <message>

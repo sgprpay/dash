@@ -188,8 +188,8 @@
         <translation>Portefeuille chiffré</translation>
     </message>
     <message>
-        <source>Sgpr Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</source>
-        <translation>Sgpr Core va maintenant se fermer pour que le chiffrage soit terminé. N'oubliez pas : chiffrer votre portefeuille n'empêcherait pas vos sgprs d'être volés par un logiciel malveillant qui infecterait votre ordinateur.</translation>
+        <source>Sgpr will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</source>
+        <translation>Sgpr va maintenant se fermer pour que le chiffrage soit terminé. N'oubliez pas : chiffrer votre portefeuille n'empêcherait pas vos sgprs d'être volés par un logiciel malveillant qui infecterait votre ordinateur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,12 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Sgpr Core can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Sgpr can no longer continue safely and will quit.</source>
         <translation>Une erreur fatale est survenue. Sgpr ne peut plus continuer de façon sûre et va s'arrêter.</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -306,12 +306,12 @@
         <translation>Quitter l’application</translation>
     </message>
     <message>
-        <source>&amp;About Sgpr Core</source>
-        <translation>À propos de Sgpr Core</translation>
+        <source>&amp;About Sgpr</source>
+        <translation>À propos de Sgpr</translation>
     </message>
     <message>
-        <source>Show information about Sgpr Core</source>
-        <translation>Affichez des informations à propos de  Sgpr Core</translation>
+        <source>Show information about Sgpr</source>
+        <translation>Affichez des informations à propos de  Sgpr</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -326,8 +326,8 @@
         <translation>&amp;Options...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Sgpr Core</source>
-        <translation>Modifier les options de configuration de Sgpr Core</translation>
+        <source>Modify configuration options for Sgpr</source>
+        <translation>Modifier les options de configuration de Sgpr</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -482,8 +482,8 @@
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message>
-        <source>Show the Sgpr Core help message to get a list with possible Sgpr Core command-line options</source>
-        <translation>Afficher l'aide Sgpr Core pour voir une liste des options possibles en ligne de commande</translation>
+        <source>Show the Sgpr help message to get a list with possible Sgpr command-line options</source>
+        <translation>Afficher l'aide Sgpr pour voir une liste des options possibles en ligne de commande</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -514,8 +514,8 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Sgpr Core client</source>
-        <translation>Client Sgpr Core </translation>
+        <source>Sgpr client</source>
+        <translation>Client Sgpr </translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Sgpr network</source>
@@ -982,8 +982,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>version</source>
@@ -994,8 +994,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sgpr Core</source>
-        <translation>À propos de Sgpr Core</translation>
+        <source>About Sgpr</source>
+        <translation>À propos de Sgpr</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1042,8 +1042,8 @@
         <translation>Information PrivateSend</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Ce qu'il faut savoir sur PrivateSend&lt;/h3&gt; PrivateSend vous offre une véritable confidentialité financière en obscurcissant l'origine de vos fonds. Tous les sgprs de votre portefeuille sont répartis en différentes "entrées", qu'on peut se représenter comme des pièces distinctes.&lt;br&gt; PrivateSend est un procédé innovant qui mélange vos entrées avec les entrées de deux autres personnes, sans que vos fonds ne quittent jamais votre portefeuille. Vous gardez le contrôle de votre argent à tout moment.&lt;hr&gt; &lt;b&gt;La procédure PrivateSend fonctionne comme ceci :&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend commence par diviser vos entrées de transaction en coupures standard. Ces coupures sont de 0.01 SGPR, 0.1 SGPR, 1 SGPR et 10 SGPR -- un peu comme pour les billets de banque que vous utilisez tous les jours.&lt;/li&gt; &lt;li&gt;Votre portefeuille envoie alors des requêtes à des serveurs spécifiques sur le réseau, appelés "masternodes". Ces masternodes sont informés que vous souhaiteriez mélanger certaines coupures. Aucune information permettant de vous identifier n'est envoyée aux masternodes, qui ne savent donc jamais "qui" vous êtes.&lt;/li&gt; &lt;li&gt;Quand deux autres personnes envoient des requêtes similaires, indiquant qu'elles veulent mélanger les mêmes coupures, alors commence une session de mélange. Le masternode mélange les entrées et demande aux portefeuilles des trois utilisateurs de payer l'entrée, désormais transformée, à eux-mêmes. Votre portefeuille paie cette coupure directement à lui-même, mais à une adresse différente (appelée adresse de monnaie rendue).&lt;/li&gt; &lt;li&gt;Afin d'obscurcir complètement vos fonds, votre portefeuille doit répéter cette procédure un certain nombre de fois avec chaque coupure. Une procédure terminée s'appelle un "cycle". Chaque cycle PrivateSend rend exponentiellement plus difficile de savoir d'où viennent vos fonds.&lt;/li&gt; &lt;li&gt;Cette procédure de mélange intervient en arrière-plan, sans aucune intervention de votre part. Quand vous souhaiterez faire une transaction, vos fonds seront déjà anonymisés. Aucune autre attente ne sera nécessaire.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT :&lt;/b&gt; Votre portefeuille ne contient que 1000 de ces "adresses de monnaie rendue". À chaque opération de mélange, jusqu'à 9 de ces adresses sont utilisées. Cela signifie que ces 1000 adresses couvrent environ 100 opérations de mélange. Quand 900 d'entre elles sont utilisées, votre portefeuille doit créer de nouvelles adresses. Cependant il ne peut le faire que si vous avez activé les sauvegardes automatiques.&lt;br&gt; En conséquence, les utilisateurs qui ont désactivé les sauvegardes ont aussi PrivateSend désactivé. &lt;hr&gt;Pour en savoir plus, voir &lt;a href="https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Ce qu'il faut savoir sur PrivateSend&lt;/h3&gt; PrivateSend vous offre une véritable confidentialité financière en obscurcissant l'origine de vos fonds. Tous les sgprs de votre portefeuille sont répartis en différentes "entrées", qu'on peut se représenter comme des pièces distinctes.&lt;br&gt; PrivateSend est un procédé innovant qui mélange vos entrées avec les entrées de deux autres personnes, sans que vos fonds ne quittent jamais votre portefeuille. Vous gardez le contrôle de votre argent à tout moment.&lt;hr&gt; &lt;b&gt;La procédure PrivateSend fonctionne comme ceci :&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend commence par diviser vos entrées de transaction en coupures standard. Ces coupures sont de 0.01 SGPR, 0.1 SGPR, 1 SGPR et 10 SGPR -- un peu comme pour les billets de banque que vous utilisez tous les jours.&lt;/li&gt; &lt;li&gt;Votre portefeuille envoie alors des requêtes à des serveurs spécifiques sur le réseau, appelés "masternodes". Ces masternodes sont informés que vous souhaiteriez mélanger certaines coupures. Aucune information permettant de vous identifier n'est envoyée aux masternodes, qui ne savent donc jamais "qui" vous êtes.&lt;/li&gt; &lt;li&gt;Quand deux autres personnes envoient des requêtes similaires, indiquant qu'elles veulent mélanger les mêmes coupures, alors commence une session de mélange. Le masternode mélange les entrées et demande aux portefeuilles des trois utilisateurs de payer l'entrée, désormais transformée, à eux-mêmes. Votre portefeuille paie cette coupure directement à lui-même, mais à une adresse différente (appelée adresse de monnaie rendue).&lt;/li&gt; &lt;li&gt;Afin d'obscurcir complètement vos fonds, votre portefeuille doit répéter cette procédure un certain nombre de fois avec chaque coupure. Une procédure terminée s'appelle un "cycle". Chaque cycle PrivateSend rend exponentiellement plus difficile de savoir d'où viennent vos fonds.&lt;/li&gt; &lt;li&gt;Cette procédure de mélange intervient en arrière-plan, sans aucune intervention de votre part. Quand vous souhaiterez faire une transaction, vos fonds seront déjà anonymisés. Aucune autre attente ne sera nécessaire.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT :&lt;/b&gt; Votre portefeuille ne contient que 1000 de ces "adresses de monnaie rendue". À chaque opération de mélange, jusqu'à 9 de ces adresses sont utilisées. Cela signifie que ces 1000 adresses couvrent environ 100 opérations de mélange. Quand 900 d'entre elles sont utilisées, votre portefeuille doit créer de nouvelles adresses. Cependant il ne peut le faire que si vous avez activé les sauvegardes automatiques.&lt;br&gt; En conséquence, les utilisateurs qui ont désactivé les sauvegardes ont aussi PrivateSend désactivé. &lt;hr&gt;Pour en savoir plus, voir &lt;a href="https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
 </context>
 <context>
@@ -1053,16 +1053,16 @@
         <translation>Bienvenue</translation>
     </message>
     <message>
-        <source>Welcome to Sgpr Core.</source>
-        <translation>Bienvenue dans Sgpr Core</translation>
+        <source>Welcome to Sgpr.</source>
+        <translation>Bienvenue dans Sgpr</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</source>
-        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où Sgpr Core sauvegardera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sgpr will store its data.</source>
+        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où Sgpr sauvegardera ses données.</translation>
     </message>
     <message>
-        <source>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sgpr Core téléchargera et sauvegardera une copie de la chaîne de blocs Sgpr. Au moins %1 Go de données seront sauvegardés dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
+        <source>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sgpr téléchargera et sauvegardera une copie de la chaîne de blocs Sgpr. Au moins %1 Go de données seront sauvegardés dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1073,8 +1073,8 @@
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1325,12 +1325,12 @@
         <translation>&amp;Portefeuille</translation>
     </message>
     <message>
-        <source>Automatically start Sgpr Core after logging in to the system.</source>
-        <translation>Lancer automatiquement Sgpr Core après connexion à cet ordinateur.</translation>
+        <source>Automatically start Sgpr after logging in to the system.</source>
+        <translation>Lancer automatiquement Sgpr après connexion à cet ordinateur.</translation>
     </message>
     <message>
-        <source>&amp;Start Sgpr Core on system login</source>
-        <translation>&amp;Lancer Sgpr Core au démarrage</translation>
+        <source>&amp;Start Sgpr on system login</source>
+        <translation>&amp;Lancer Sgpr au démarrage</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1377,8 +1377,8 @@
         <translation>Ce montant agit comme seuil de désactivation de PrivateSend, une fois atteint.</translation>
     </message>
     <message>
-        <source>Automatically open the Sgpr Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client Sgpr Core sur le routeur. Cela ne fonctionne que si votre routeur supporte UPnP et est activé.</translation>
+        <source>Automatically open the Sgpr client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client Sgpr sur le routeur. Cela ne fonctionne que si votre routeur supporte UPnP et est activé.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1401,8 +1401,8 @@
         <translation>Minimiser l'application (au lieu de la quitter) quand la fenêtre est fermée. Si cette option est activée, l'application se fermera uniquement en passant par le menu Quitter.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Sgpr Core.</source>
-        <translation>La langue de l'interface peut être choisie ici. Ce réglage prendra effet après le redémarrage de Sgpr Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Sgpr.</source>
+        <translation>La langue de l'interface peut être choisie ici. Ce réglage prendra effet après le redémarrage de Sgpr.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1969,8 +1969,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1989,8 +1989,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Erreur de lecture du fichier de configuration du masternode : %1</translation>
     </message>
     <message>
-        <source>Sgpr Core didn't yet exit safely...</source>
-        <translation>Sgpr Core ne s'est pas encore arrêté en toute sécurité...</translation>
+        <source>Sgpr didn't yet exit safely...</source>
+        <translation>Sgpr ne s'est pas encore arrêté en toute sécurité...</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Utilisation mémoire</translation>
     </message>
     <message>
-        <source>Open the Sgpr Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvre le fichier de debug Sgpr Core depuis le répertoire de données actuel. Cela peut prendre plusieurs secondes si le fichier de debug est volumineux.</translation>
+        <source>Open the Sgpr debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvre le fichier de debug Sgpr depuis le répertoire de données actuel. Cela peut prendre plusieurs secondes si le fichier de debug est volumineux.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2379,8 +2379,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Dé&amp;bannir</translation>
     </message>
     <message>
-        <source>Welcome to the Sgpr Core RPC console.</source>
-        <translation>Bienvenue sur la console RPC de Sgpr Core.</translation>
+        <source>Welcome to the Sgpr RPC console.</source>
+        <translation>Bienvenue sur la console RPC de Sgpr.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -3025,8 +3025,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sgpr Core is shutting down...</source>
-        <translation>Arrêt de Sgpr Core...</translation>
+        <source>Sgpr is shutting down...</source>
+        <translation>Arrêt de Sgpr...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3179,8 +3179,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>[réseau de test]</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3191,8 +3191,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Les développeurs Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Sgpr Core developers</source>
-        <translation>Les développeurs Sgpr Core</translation>
+        <source>The Sgpr developers</source>
+        <translation>Les développeurs Sgpr</translation>
     </message>
 </context>
 <context>
@@ -3789,8 +3789,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Se lier à l'adresse donnée et toujours l'écouter. Utilisez la notation [host]:port pour l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Sgpr Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Sgpr fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3829,8 +3829,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Ceci est une pré-version de test - Veuillez l'utiliser à vos risques et périls - Ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sgpr Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Sgpr Core fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. Sgpr is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. Sgpr fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4145,8 +4145,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Sgpr Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Sgpr Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Sgpr Developers</source>
+        <translation>Copyright (C) 2014-%i The Sgpr Developers</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4165,8 +4165,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Erreur au chargement de %s : Impossible de désactiver HD sur un portefeuille HD déjà existant</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr Core</source>
-        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Sgpr Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr</source>
+        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Sgpr</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
@@ -4225,8 +4225,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Informations</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sgpr Core is shutting down.</source>
-        <translation>Les tests de cohérences lors de l'initialisation ont échoués. Sgpr Core est en cours de fermeture.</translation>
+        <source>Initialization sanity check failed. Sgpr is shutting down.</source>
+        <translation>Les tests de cohérences lors de l'initialisation ont échoués. Sgpr est en cours de fermeture.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4481,8 +4481,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Le commentaire User Agent (%s) contient des caractères dangereux.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sgpr Core to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer Sgpr Core pour terminer l'opération.</translation>
+        <source>Wallet needed to be rewritten: restart Sgpr to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer Sgpr pour terminer l'opération.</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4613,8 +4613,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Frais totaux maximum (en %s) pour une transaction portefeuille unique; si trop bas, risque d'annulation pour transactions trop volumineuses (par défaut : %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sgpr Core will not work properly.</source>
-        <translation>Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Sgpr Core ne fonctionnera pas correctement.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Sgpr will not work properly.</source>
+        <translation>Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Sgpr ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

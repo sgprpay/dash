@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("sgpr-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("sgpr-core", ""
-"Cannot obtain a lock on data directory %s. Sgpr Core is probably already "
+"Cannot obtain a lock on data directory %s. Sgpr is probably already "
 "running."),
 QT_TRANSLATE_NOOP("sgpr-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
@@ -158,7 +158,7 @@ QT_TRANSLATE_NOOP("sgpr-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("sgpr-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong Sgpr Core will not work properly."),
+"is wrong Sgpr will not work properly."),
 QT_TRANSLATE_NOOP("sgpr-core", ""
 "PrivateSend uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
@@ -221,7 +221,7 @@ QT_TRANSLATE_NOOP("sgpr-core", ""
 "Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
 "no limit (default: %d)"),
 QT_TRANSLATE_NOOP("sgpr-core", ""
-"Unable to bind to %s on this computer. Sgpr Core is probably already running."),
+"Unable to bind to %s on this computer. Sgpr is probably already running."),
 QT_TRANSLATE_NOOP("sgpr-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("sgpr-core", ""
@@ -333,7 +333,7 @@ QT_TRANSLATE_NOOP("sgpr-core", "Connect to KeePassHttp on port <port> (default: 
 QT_TRANSLATE_NOOP("sgpr-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("sgpr-core", "Connection options:"),
 QT_TRANSLATE_NOOP("sgpr-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("sgpr-core", "Copyright (C) 2014-%i The Sgpr Core Developers"),
+QT_TRANSLATE_NOOP("sgpr-core", "Copyright (C) 2014-%i The Sgpr Developers"),
 QT_TRANSLATE_NOOP("sgpr-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("sgpr-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("sgpr-core", "Debugging/Testing options:"),
@@ -358,7 +358,7 @@ QT_TRANSLATE_NOOP("sgpr-core", "Error loading %s: You can't disable HD on a alre
 QT_TRANSLATE_NOOP("sgpr-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("sgpr-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("sgpr-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("sgpr-core", "Error loading wallet.dat: Wallet requires newer version of Sgpr Core"),
+QT_TRANSLATE_NOOP("sgpr-core", "Error loading wallet.dat: Wallet requires newer version of Sgpr"),
 QT_TRANSLATE_NOOP("sgpr-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("sgpr-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("sgpr-core", "Error"),
@@ -385,7 +385,7 @@ QT_TRANSLATE_NOOP("sgpr-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("sgpr-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("sgpr-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("sgpr-core", "Information"),
-QT_TRANSLATE_NOOP("sgpr-core", "Initialization sanity check failed. Sgpr Core is shutting down."),
+QT_TRANSLATE_NOOP("sgpr-core", "Initialization sanity check failed. Sgpr is shutting down."),
 QT_TRANSLATE_NOOP("sgpr-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("sgpr-core", "InstantSend options:"),
 QT_TRANSLATE_NOOP("sgpr-core", "Insufficient funds."),
@@ -537,7 +537,7 @@ QT_TRANSLATE_NOOP("sgpr-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("sgpr-core", "Very low number of keys left: %d"),
 QT_TRANSLATE_NOOP("sgpr-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("sgpr-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("sgpr-core", "Wallet needed to be rewritten: restart Sgpr Core to complete"),
+QT_TRANSLATE_NOOP("sgpr-core", "Wallet needed to be rewritten: restart Sgpr to complete"),
 QT_TRANSLATE_NOOP("sgpr-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("sgpr-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("sgpr-core", "Warning"),

@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Sgpr Core developers
+// Copyright (c) 2014-2018 The Dash developers
+// Copyright (c) 2018-2018 The Sgpr developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -2777,7 +2778,7 @@ bool CWallet::SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount 
     BOOST_FOREACH(const COutput& out, vCoins)
     {
         // masternode-like input should not be selected by AvailableCoins now anyway
-        //if(out.tx->vout[out.i].nValue == 5000*COIN) continue;
+        //if(out.tx->vout[out.i].nValue == 10000*COIN) continue;
         if(nValueRet + out.tx->vout[out.i].nValue <= nValueMax){
 
             CTxIn txin = CTxIn(out.tx->GetHash(), out.i);

@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the Sgpr Core software.
+This document provides guidelines for internationalization of the Sgpr software.
 
 How to translate?
 ------------------

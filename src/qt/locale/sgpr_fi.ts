@@ -188,8 +188,8 @@
         <translation>Lompakko salattu</translation>
     </message>
     <message>
-        <source>Sgpr Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</source>
-        <translation>Sgpr Core sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Sgpriesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
+        <source>Sgpr will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</source>
+        <translation>Sgpr sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Sgpriesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,12 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Sgpr Core can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe tapahtunut. Sgpr Core ei voi enää toimia turvallisesti ja sulkeutuu.</translation>
+        <source>A fatal error occurred. Sgpr can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe tapahtunut. Sgpr ei voi enää toimia turvallisesti ja sulkeutuu.</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -306,12 +306,12 @@
         <translation>Sulje ohjelma</translation>
     </message>
     <message>
-        <source>&amp;About Sgpr Core</source>
-        <translation>Tietoja &amp;Sgpr Core:sta</translation>
+        <source>&amp;About Sgpr</source>
+        <translation>Tietoja &amp;Sgpr:sta</translation>
     </message>
     <message>
-        <source>Show information about Sgpr Core</source>
-        <translation>Näytä tietoja Sgpr Core:sta</translation>
+        <source>Show information about Sgpr</source>
+        <translation>Näytä tietoja Sgpr:sta</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -326,8 +326,8 @@
         <translation>&amp;Asetukset...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Sgpr Core</source>
-        <translation>Muuta Sgpr Core asetuksia</translation>
+        <source>Modify configuration options for Sgpr</source>
+        <translation>Muuta Sgpr asetuksia</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -482,8 +482,8 @@
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Show the Sgpr Core help message to get a list with possible Sgpr Core command-line options</source>
-        <translation>Näytä Sgpr Core ohjelista komentorivin valinnoista</translation>
+        <source>Show the Sgpr help message to get a list with possible Sgpr command-line options</source>
+        <translation>Näytä Sgpr ohjelista komentorivin valinnoista</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -514,8 +514,8 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>Sgpr Core client</source>
-        <translation>Sgpr Core asiakasohjelma</translation>
+        <source>Sgpr client</source>
+        <translation>Sgpr asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Sgpr network</source>
@@ -982,8 +982,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>version</source>
@@ -994,8 +994,8 @@
         <translation>(%1-bittinen)</translation>
     </message>
     <message>
-        <source>About Sgpr Core</source>
-        <translation>Tietoja Sgpr Core:sta</translation>
+        <source>About Sgpr</source>
+        <translation>Tietoja Sgpr:sta</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1042,8 +1042,8 @@
         <translation>PrivateSend tietoja</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend perusteet&lt;/h3&gt; PrivateSend tarjoaa yksityisyyden hämärtämällä varojesi alkuperäisen osoitteen. Kaikki Sgpr:it lompakossasi muodostuvat erillisistä "syötteistä", joita voit ajatella erillisinä kolikkoina.&lt;br&gt; PrivateSend käyttää innovatiivista prosessia sekoittaakseen lompakkosi syötteet kahden muun ihmisen syötteisiin, siirtämättä varoja pois lompakostasi. Varojesi kontrolli pysyy aina sinulla.&lt;hr&gt; &lt;b&gt; PrivateSend prosessi toimii seuraavasti:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend aloittaa pilkkomalla siirtotapahtumiesi syötteet pienemmiksi standardi arvoiksi. Nämä arvot ovat 0.01 SGPR, 0.1 SGPR, 1 SGPR ja 10 SGPR.&lt;/li&gt; &lt;li&gt;Sitten lompakkosi lähettää pyynnön verkon palvelimille, joita kutsutaan "masternode:iksi". Masternodet saavat tiedon että haluat sekoittaa pilkottuja standardi arvoja. Mitään tunnistetietoja ei lähetetä masternode:ille, ne eivät koskaan tiedä "kuka" olet.&lt;/li&gt; &lt;li&gt;Kun 2 muuta käyttäjää ilmoittaa että he haluavat myös sekoittaa varoja, alkaa sekoitus-sessio. Masternodet sekoittavat standardi arvot ja ilmoittavat kaikille 3:lle käyttäjän lompakoille että maksavat sekoitetut arvot takaisin itselleen. Lompakkosi maksaa nuo sekoitetut arvot suoraan itselleen, mutta eri osoitteeseen (vaihto-osoite).&lt;/li&gt; &lt;li&gt;Jotta varojesi alkuperäinen lähde hämärretään, lompakkosi suorittaa tämän prosessin useita kertoja kaikilla standardi arvoilla. Aina kun prosessi on valmis, sitä kutsutaan "kierrokseksi". Jokainen PrivateSend kierros tekee eksponentiaalisesti vaikeammaksi löytää varojesi alkuperäisen osoitteen.&lt;/li&gt; &lt;li&gt;Tämä sekoitusprosessi tapahtuu taustalla ilman käyttäjän toimenpiteitä. Kun haluat myöhemmin tehdä anonyymin varojen siirron, on varasi valmiiksi sekoitettu (anonymisoitu). Erillistä sekoitusta/odotusta ei tarvita.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;TÄRKEÄÄ:&lt;/b&gt; Lompakkosi sisältää vain 1000 "vaihto-osoitetta". Aina kun sekoitustapahtuma tehdään, max 9 osoitetta käytetään. Tämä tarkoittaa sitä että nuo 1000 osoitetta kestää noin 100 sekoitustapahtumaa. Kun 900 osoitetta on käytetty, lompakkosi täytyy tehdä lisää osoitteita. Se voi tehdä niitä vain jos automaattinen varmistus on käytössä.&lt;br&gt; Tästä seuraa että jos varmistus ei ole käytössä, myös PrivateSend on pois käytöstä. &lt;hr&gt;Lisätietoja &lt;a href="https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt; </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend perusteet&lt;/h3&gt; PrivateSend tarjoaa yksityisyyden hämärtämällä varojesi alkuperäisen osoitteen. Kaikki Sgpr:it lompakossasi muodostuvat erillisistä "syötteistä", joita voit ajatella erillisinä kolikkoina.&lt;br&gt; PrivateSend käyttää innovatiivista prosessia sekoittaakseen lompakkosi syötteet kahden muun ihmisen syötteisiin, siirtämättä varoja pois lompakostasi. Varojesi kontrolli pysyy aina sinulla.&lt;hr&gt; &lt;b&gt; PrivateSend prosessi toimii seuraavasti:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend aloittaa pilkkomalla siirtotapahtumiesi syötteet pienemmiksi standardi arvoiksi. Nämä arvot ovat 0.01 SGPR, 0.1 SGPR, 1 SGPR ja 10 SGPR.&lt;/li&gt; &lt;li&gt;Sitten lompakkosi lähettää pyynnön verkon palvelimille, joita kutsutaan "masternode:iksi". Masternodet saavat tiedon että haluat sekoittaa pilkottuja standardi arvoja. Mitään tunnistetietoja ei lähetetä masternode:ille, ne eivät koskaan tiedä "kuka" olet.&lt;/li&gt; &lt;li&gt;Kun 2 muuta käyttäjää ilmoittaa että he haluavat myös sekoittaa varoja, alkaa sekoitus-sessio. Masternodet sekoittavat standardi arvot ja ilmoittavat kaikille 3:lle käyttäjän lompakoille että maksavat sekoitetut arvot takaisin itselleen. Lompakkosi maksaa nuo sekoitetut arvot suoraan itselleen, mutta eri osoitteeseen (vaihto-osoite).&lt;/li&gt; &lt;li&gt;Jotta varojesi alkuperäinen lähde hämärretään, lompakkosi suorittaa tämän prosessin useita kertoja kaikilla standardi arvoilla. Aina kun prosessi on valmis, sitä kutsutaan "kierrokseksi". Jokainen PrivateSend kierros tekee eksponentiaalisesti vaikeammaksi löytää varojesi alkuperäisen osoitteen.&lt;/li&gt; &lt;li&gt;Tämä sekoitusprosessi tapahtuu taustalla ilman käyttäjän toimenpiteitä. Kun haluat myöhemmin tehdä anonyymin varojen siirron, on varasi valmiiksi sekoitettu (anonymisoitu). Erillistä sekoitusta/odotusta ei tarvita.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;TÄRKEÄÄ:&lt;/b&gt; Lompakkosi sisältää vain 1000 "vaihto-osoitetta". Aina kun sekoitustapahtuma tehdään, max 9 osoitetta käytetään. Tämä tarkoittaa sitä että nuo 1000 osoitetta kestää noin 100 sekoitustapahtumaa. Kun 900 osoitetta on käytetty, lompakkosi täytyy tehdä lisää osoitteita. Se voi tehdä niitä vain jos automaattinen varmistus on käytössä.&lt;br&gt; Tästä seuraa että jos varmistus ei ole käytössä, myös PrivateSend on pois käytöstä. &lt;hr&gt;Lisätietoja &lt;a href="https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt; </translation>
     </message>
 </context>
 <context>
@@ -1053,17 +1053,17 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Sgpr Core.</source>
-        <translation>Sgpr Core - Tervetuloa.</translation>
+        <source>Welcome to Sgpr.</source>
+        <translation>Sgpr - Tervetuloa.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</source>
-        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne Sgpr Core tallettaa datansa.
+        <source>As this is the first time the program is launched, you can choose where Sgpr will store its data.</source>
+        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne Sgpr tallettaa datansa.
 Varoitus: Jos käytät käyttöjärjestelmää suoraan usb, dvd tai cd levyltä (Live os), ohjaa talletettava data eri levyasemalle turvalliseen paikkaan.</translation>
     </message>
     <message>
-        <source>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sgpr Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
+        <source>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sgpr lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1074,8 +1074,8 @@ Varoitus: Jos käytät käyttöjärjestelmää suoraan usb, dvd tai cd levyltä 
         <translation>Määritä oma datahakemisto:</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1326,12 +1326,12 @@ Varoitus: Jos käytät käyttöjärjestelmää suoraan usb, dvd tai cd levyltä 
         <translation>&amp;Lompakko</translation>
     </message>
     <message>
-        <source>Automatically start Sgpr Core after logging in to the system.</source>
-        <translation>Käynnistä Sgpr Core automaattisesti kun järjestelmään kirjaudutaan.</translation>
+        <source>Automatically start Sgpr after logging in to the system.</source>
+        <translation>Käynnistä Sgpr automaattisesti kun järjestelmään kirjaudutaan.</translation>
     </message>
     <message>
-        <source>&amp;Start Sgpr Core on system login</source>
-        <translation>&amp;Käynnistä Sgpr Core järjestelmään kirjauduttaessa</translation>
+        <source>&amp;Start Sgpr on system login</source>
+        <translation>&amp;Käynnistä Sgpr järjestelmään kirjauduttaessa</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1378,8 +1378,8 @@ Varoitus: Jos käytät käyttöjärjestelmää suoraan usb, dvd tai cd levyltä 
         <translation>Tämä määrä toimii rajana sekoituksen keskeytykselle kun PrivateSend sen saavuttaa.</translation>
     </message>
     <message>
-        <source>Automatically open the Sgpr Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa automaattisesti Sgpr Core asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Sgpr client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa automaattisesti Sgpr asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1402,8 +1402,8 @@ Varoitus: Jos käytät käyttöjärjestelmää suoraan usb, dvd tai cd levyltä 
         <translation>Ikkunaa suljettaessa pienennä ohjelman ikkuna lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Sgpr Core.</source>
-        <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun Sgpr Core asiakasohjelma käynnistetään uudelleen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Sgpr.</source>
+        <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun Sgpr asiakasohjelma käynnistetään uudelleen.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1970,8 +1970,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1990,8 +1990,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Virhe luettaessa masternoden asetustiedostoa: %1</translation>
     </message>
     <message>
-        <source>Sgpr Core didn't yet exit safely...</source>
-        <translation>Sgpr Core ei ole vielä sulkeutunut turvallisesti...</translation>
+        <source>Sgpr didn't yet exit safely...</source>
+        <translation>Sgpr ei ole vielä sulkeutunut turvallisesti...</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2164,8 +2164,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Muistin käyttö</translation>
     </message>
     <message>
-        <source>Open the Sgpr Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Sgpr Core debug lokitiedosto nykyisestä datahakemistosta. Tämä saattaa kestää muutaman sekunnin isoilla tiedostoilla.</translation>
+        <source>Open the Sgpr debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Sgpr debug lokitiedosto nykyisestä datahakemistosta. Tämä saattaa kestää muutaman sekunnin isoilla tiedostoilla.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2384,8 +2384,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>&amp;Poista kieltolistalta</translation>
     </message>
     <message>
-        <source>Welcome to the Sgpr Core RPC console.</source>
-        <translation>Tervetuloa Sgpr Core RPC konsoliin.</translation>
+        <source>Welcome to the Sgpr RPC console.</source>
+        <translation>Tervetuloa Sgpr RPC konsoliin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -3030,8 +3030,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sgpr Core is shutting down...</source>
-        <translation>Sgpr Core sulkeutuu...</translation>
+        <source>Sgpr is shutting down...</source>
+        <translation>Sgpr sulkeutuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3184,8 +3184,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>[testiverkko]</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3196,8 +3196,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Bitcoin Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Sgpr Core developers</source>
-        <translation>Sgpr Core kehittäjät</translation>
+        <source>The Sgpr developers</source>
+        <translation>Sgpr kehittäjät</translation>
     </message>
 </context>
 <context>
@@ -3794,8 +3794,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</source>
-        <translation>Ei voida lukita datahakemistoa %s. Sgpr Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</source>
+        <translation>Ei voida lukita datahakemistoa %s. Sgpr on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3834,8 +3834,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla vastuulla - Älä käytä louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sgpr Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Sgpr Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. Sgpr is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. Sgpr on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4150,8 +4150,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Copyright (C) 2009-%i Bitcoin Core Kehittäjät</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Sgpr Core Developers</source>
-        <translation>Copyright (C) 2014-%i Sgpr Core Kehittäjät</translation>
+        <source>Copyright (C) 2014-%i The Sgpr Developers</source>
+        <translation>Copyright (C) 2014-%i Sgpr Kehittäjät</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4170,8 +4170,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Virhe latauksessa %s: Et voi poistaa käytöstä HD:tä jo olemassa olevassa HD lompakossa</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr Core</source>
-        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version Sgpr Core:sta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr</source>
+        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version Sgpr:sta</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
@@ -4230,8 +4230,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Tietoja</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sgpr Core is shutting down.</source>
-        <translation>Ohjelman alkuperäisyyden tarkistus epäonnistui. Sgpr Core sulkeutuu.</translation>
+        <source>Initialization sanity check failed. Sgpr is shutting down.</source>
+        <translation>Ohjelman alkuperäisyyden tarkistus epäonnistui. Sgpr sulkeutuu.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4486,8 +4486,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Käyttäjä toimijan kommentti (%s) sisältää ei suositeltuja merkkejä.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sgpr Core to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Sgpr Core uudestaan viimeistelyä varten</translation>
+        <source>Wallet needed to be rewritten: restart Sgpr to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Sgpr uudestaan viimeistelyä varten</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4618,7 +4618,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Yksittäisen siirtotapahtuman maksimi siirtomaksu (%s), jos tämä asetetaan liian matalaksi, se voi keskeyttää isot siirtotapahtumat (oletus: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sgpr Core will not work properly.</source>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Sgpr will not work properly.</source>
         <translation>Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! Sgpr ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>

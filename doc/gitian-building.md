@@ -1,7 +1,7 @@
 Gitian building
 ================
 
-*Setup instructions for a Gitian build of Sgpr Core using a Debian VM or physical system.*
+*Setup instructions for a Gitian build of Sgpr using a Debian VM or physical system.*
 
 Gitian is the deterministic build process that is used to build the Sgpr
 Core executables. It provides a way to be reasonably sure that the
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building Sgpr Core](#building-sgpr-core)
+- [Building Sgpr](#building-sgpr-core)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -300,11 +300,11 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
-Clone the git repositories for Sgpr Core and Gitian.
+Clone the git repositories for Sgpr and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/sgprpay/sgpr
+git clone https://github.com/sgpr/sgprcore
 ```
 
 Setting up the Gitian image
@@ -339,16 +339,16 @@ Getting and building the inputs
 --------------------------------
 
 Follow the instructions in [doc/release-process.md](release-process.md#fetch-and-build-inputs-first-time-or-when-dependency-versions-change)
-in the Sgpr Core repository under 'Fetch and build inputs' to install sources which require
+in the Sgpr repository under 'Fetch and build inputs' to install sources which require
 manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache
 and offline git repositories' which will fetch the remaining files required for building
 offline.
 
-Building Sgpr Core
+Building Sgpr
 ----------------
 
-To build Sgpr Core (for Linux, OS X and Windows) just follow the steps under 'perform
-Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the Sgpr Core repository.
+To build Sgpr (for Linux, OS X and Windows) just follow the steps under 'perform
+Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the Sgpr repository.
 
 This may take some time as it will build all the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -368,7 +368,7 @@ Output from `gbuild` will look something like
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/sgprpay/sgpr
+    From https://github.com/sgpr/sgprcore
     ... (new tags, new branch etc)
     --- Building for precise amd64 ---
     Stopping target if it is up
@@ -444,7 +444,7 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/sgprpay/sgpr-detached-sigs.git
+git clone https://github.com/sgpr/sgprcore-detached-sigs.git
 
 BTCPATH=/some/root/path/sgpr.git
 SIGPATH=/some/root/path/sgpr-detached-sigs.git
@@ -476,6 +476,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[sgpr/gitian.sigs](https://github.com/sgprpay/gitian.sigs/) repository, or if that's not possible to create a pull
+[sgpr/gitian.sigs](https://github.com/fexchange/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.

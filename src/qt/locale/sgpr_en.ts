@@ -237,8 +237,8 @@
     </message>
     <message>
         <location line="-57"/>
-        <source>Sgpr Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</source>
-        <translation>Sgpr Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</translation>
+        <source>Sgpr will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</source>
+        <translation>Sgpr will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sgprs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -310,14 +310,14 @@
     <name>BitcoinGUI</name>
     <message>
         <location filename="../sgpr.cpp" line="+542"/>
-        <source>A fatal error occurred. Sgpr Core can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Sgpr Core can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Sgpr can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Sgpr can no longer continue safely and will quit.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="+130"/>
         <location line="+988"/>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <location line="-979"/>
@@ -391,13 +391,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Sgpr Core</source>
-        <translation>&amp;About Sgpr Core</translation>
+        <source>&amp;About Sgpr</source>
+        <translation>&amp;About Sgpr</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Sgpr Core</source>
-        <translation>Show information about Sgpr Core</translation>
+        <source>Show information about Sgpr</source>
+        <translation>Show information about Sgpr</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -416,8 +416,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for Sgpr Core</source>
-        <translation>Modify configuration options for Sgpr Core</translation>
+        <source>Modify configuration options for Sgpr</source>
+        <translation>Modify configuration options for Sgpr</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -611,8 +611,8 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the Sgpr Core help message to get a list with possible Sgpr Core command-line options</source>
-        <translation>Show the Sgpr Core help message to get a list with possible Sgpr Core command-line options</translation>
+        <source>Show the Sgpr help message to get a list with possible Sgpr command-line options</source>
+        <translation>Show the Sgpr help message to get a list with possible Sgpr command-line options</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -651,8 +651,8 @@
     </message>
     <message>
         <location line="+168"/>
-        <source>Sgpr Core client</source>
-        <translation>Sgpr Core client</translation>
+        <source>Sgpr client</source>
+        <translation>Sgpr client</translation>
     </message>
     <message numerus="yes">
         <location line="+200"/>
@@ -1239,8 +1239,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+37"/>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1255,8 +1255,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About Sgpr Core</source>
-        <translation>About Sgpr Core</translation>
+        <source>About Sgpr</source>
+        <translation>About Sgpr</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1315,8 +1315,8 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://sgprpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Sgpr in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SGPR, 0.1 SGPR, 1 SGPR and 10 SGPR -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://fexchange.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
 </context>
 <context>
@@ -1328,18 +1328,18 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Sgpr Core.</source>
-        <translation>Welcome to Sgpr Core.</translation>
+        <source>Welcome to Sgpr.</source>
+        <translation>Welcome to Sgpr.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sgpr will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Sgpr will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1353,8 +1353,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+88"/>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1675,13 +1675,13 @@
     </message>
     <message>
         <location line="-104"/>
-        <source>Automatically start Sgpr Core after logging in to the system.</source>
-        <translation>Automatically start Sgpr Core after logging in to the system.</translation>
+        <source>Automatically start Sgpr after logging in to the system.</source>
+        <translation>Automatically start Sgpr after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Sgpr Core on system login</source>
-        <translation>&amp;Start Sgpr Core on system login</translation>
+        <source>&amp;Start Sgpr on system login</source>
+        <translation>&amp;Start Sgpr on system login</translation>
     </message>
     <message>
         <location line="+123"/>
@@ -1740,8 +1740,8 @@
     </message>
     <message>
         <location line="+60"/>
-        <source>Automatically open the Sgpr Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Sgpr Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Sgpr client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Sgpr client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1770,8 +1770,8 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Sgpr Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Sgpr Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Sgpr.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Sgpr.</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -2530,8 +2530,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <location line="+7"/>
         <location line="+15"/>
         <location line="+19"/>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <location line="-40"/>
@@ -2555,8 +2555,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Sgpr Core didn&apos;t yet exit safely...</source>
-        <translation>Sgpr Core didn&apos;t yet exit safely...</translation>
+        <source>Sgpr didn&apos;t yet exit safely...</source>
+        <translation>Sgpr didn&apos;t yet exit safely...</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="+233"/>
@@ -2821,8 +2821,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Open the Sgpr Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Sgpr Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Sgpr debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Sgpr debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -3099,8 +3099,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+188"/>
-        <source>Welcome to the Sgpr Core RPC console.</source>
-        <translation>Welcome to the Sgpr Core RPC console.</translation>
+        <source>Welcome to the Sgpr RPC console.</source>
+        <translation>Welcome to the Sgpr RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3923,8 +3923,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+71"/>
-        <source>Sgpr Core is shutting down...</source>
-        <translation>Sgpr Core is shutting down...</translation>
+        <source>Sgpr is shutting down...</source>
+        <translation>Sgpr is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4123,8 +4123,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="+45"/>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4136,10 +4136,15 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <source>The Bitcoin Core developers</source>
         <translation>The Bitcoin Core developers</translation>
     </message>
+	<message>
+        <location line="+1"/>
+        <source>The Dash developers</source>
+        <translation>The Dash developers</translation>
+    </message>
     <message>
         <location line="+1"/>
-        <source>The Sgpr Core developers</source>
-        <translation>The Sgpr Core developers</translation>
+        <source>The Sgpr developers</source>
+        <translation>The Sgpr developers</translation>
     </message>
 </context>
 <context>
@@ -4909,8 +4914,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -4959,8 +4964,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Sgpr Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Sgpr Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Sgpr is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Sgpr is probably already running.</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -5354,8 +5359,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Sgpr Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Sgpr Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Sgpr Developers</source>
+        <translation>Copyright (C) 2014-%i The Sgpr Developers</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5379,8 +5384,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Sgpr Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Sgpr</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -5454,8 +5459,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Sgpr Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Sgpr Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Sgpr is shutting down.</source>
+        <translation>Initialization sanity check failed. Sgpr is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5774,8 +5779,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Wallet needed to be rewritten: restart Sgpr Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Sgpr Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Sgpr to complete</source>
+        <translation>Wallet needed to be rewritten: restart Sgpr to complete</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -5939,8 +5944,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Sgpr Core will not work properly.</source>
-        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Sgpr Core will not work properly.</translation>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Sgpr will not work properly.</source>
+        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Sgpr will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>

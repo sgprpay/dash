@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Salir de la aplicación</translation>
     </message>
     <message>
-        <source>&amp;About Sgpr Core</source>
-        <translation>&amp;Acerca de Sgpr Core</translation>
+        <source>&amp;About Sgpr</source>
+        <translation>&amp;Acerca de Sgpr</translation>
     </message>
     <message>
-        <source>Show information about Sgpr Core</source>
-        <translation>Mostrar información acerca de Sgpr Core</translation>
+        <source>Show information about Sgpr</source>
+        <translation>Mostrar información acerca de Sgpr</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Opciones de consola de comandos</translation>
     </message>
     <message>
-        <source>Sgpr Core client</source>
-        <translation>Cliente Sgpr Core</translation>
+        <source>Sgpr client</source>
+        <translation>Cliente Sgpr</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Sincronizando datos adicionales: %p%</translation>
     </message>
     <message>
-        <source>Show the Sgpr Core help message to get a list with possible Sgpr command-line options</source>
-        <translation>Mostrar el mensaje de ayuda de Sgpr Core para obtener una lista con las posibles opciones de la consola de comandos</translation>
+        <source>Show the Sgpr help message to get a list with possible Sgpr command-line options</source>
+        <translation>Mostrar el mensaje de ayuda de Sgpr para obtener una lista con las posibles opciones de la consola de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Dirección: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Dirección: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sgpr Core</source>
-        <translation>Acerca de Sgpr Core</translation>
+        <source>About Sgpr</source>
+        <translation>Acerca de Sgpr</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Dirección: %4
         <translation>Bienvenido</translation>
     </message>
     <message>
-        <source>Welcome to Sgpr Core.</source>
-        <translation>Bienvenido a Sgpr Core</translation>
+        <source>Welcome to Sgpr.</source>
+        <translation>Bienvenido a Sgpr</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</source>
-        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Sgpr Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sgpr will store its data.</source>
+        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Sgpr.</translation>
     </message>
     <message>
-        <source>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sgpr Core va a descargar y guardar una copia de la cadena de bloques de Sgpr. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
+        <source>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sgpr va a descargar y guardar una copia de la cadena de bloques de Sgpr. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Dirección: %4
         <translation>Utilizar un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sgpr Core is shutting down...</source>
-        <translation>Sgpr Core se está cerrando...</translation>
+        <source>Sgpr is shutting down...</source>
+        <translation>Sgpr se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Los desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Sgpr Core developers</source>
-        <translation>Los desarrolladores del Sgpr Core</translation>
+        <source>The Sgpr developers</source>
+        <translation>Los desarrolladores del Sgpr</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Vincular a la dirección dada y escuchar siempre en ella. Utilice la notación [host]:port para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</source>
-        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Sgpr Core.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</source>
+        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Sgpr.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sgpr Core is probably already running.</source>
-        <translation>No se puede enlazar a %s en este equipo. Sgpr Core probablemente ya está en funcionamiento.</translation>
+        <source>Unable to bind to %s on this computer. Sgpr is probably already running.</source>
+        <translation>No se puede enlazar a %s en este equipo. Sgpr probablemente ya está en funcionamiento.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3747,8 +3747,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Sgpr" admin@foo.com
         <translation>Aviso: ¡-maxtxfee se estableció en un valor muy alto! Comisiones tan grandes no se podrían pagar en una única transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sgpr Core will not work properly.</source>
-        <translation>Aviso: ¡Por favor compruebe que la fecha y hora de su computadora son correctas! Si su reloj está mal ajustado, Sgpr Core no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sgpr will not work properly.</source>
+        <translation>Aviso: ¡Por favor compruebe que la fecha y hora de su computadora son correctas! Si su reloj está mal ajustado, Sgpr no funcionará correctamente.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3801,8 +3801,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Sgpr" admin@foo.com
         <translation>Copyright (C) 2009-%i Los Desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Sgpr Core Developers</source>
-        <translation>Copyright (C) 2014-%i Los Desarrolladores de Sgpr Core</translation>
+        <source>Copyright (C) 2014-%i The Sgpr Developers</source>
+        <translation>Copyright (C) 2014-%i Los Desarrolladores de Sgpr</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3833,8 +3833,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Sgpr" admin@foo.com
         <translation>Error al conectar al Nodo Maestro.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr Core</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Sgpr Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Sgpr</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3905,8 +3905,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Sgpr" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sgpr Core is shutting down.</source>
-        <translation>La comprobación de validez de inicio falló. Sgpr Core se está cerrando.</translation>
+        <source>Initialization sanity check failed. Sgpr is shutting down.</source>
+        <translation>La comprobación de validez de inicio falló. Sgpr se está cerrando.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4157,8 +4157,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Sgpr" admin@foo.com
         <translation>Usar UPnP para asignar el puerto de escucha (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sgpr Core to complete</source>
-        <translation>El monedero se ha de reescribir: reinicie Sgpr Core para completarlo</translation>
+        <source>Wallet needed to be rewritten: restart Sgpr to complete</source>
+        <translation>El monedero se ha de reescribir: reinicie Sgpr para completarlo</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

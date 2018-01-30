@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Sgpr Core developers
+// Copyright (c) 2014-2018 The Dash developers
+// Copyright (c) 2018-2018 The Sgpr developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -52,7 +53,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Sgpr Core cannot be compiled without assertions."
+# error "Sgpr cannot be compiled without assertions."
 #endif
 
 /**
@@ -1230,9 +1231,9 @@ NOTE:   unlike bitcoin we are using PREVIOUS block height here,
 */
 CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params& consensusParams, bool fSuperblockPartOnly)
 {
-    if(nPrevHeight == 0)
+	if(nPrevHeight == 0)
 	{
-		return 999999 * COIN; //999999 premine
+		return 20000 * COIN; //999999 premine
 	}
 	
 	if(nPrevHeight <= 7200)
@@ -1252,7 +1253,7 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
 
 CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 {
-    CAmount ret = blockValue/5; //20%
+	CAmount ret = blockValue/5; //20%
 
     int nMNPIBlock = Params().GetConsensus().nMasternodePaymentsIncreaseBlock;
     int nMNPIPeriod = Params().GetConsensus().nMasternodePaymentsIncreasePeriod;

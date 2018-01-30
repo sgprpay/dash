@@ -1,6 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Sgpr Core developers
+// Copyright (c) 2014-2018 The Dash developers
+// Copyright (c) 2018-2018 The Sgpr developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -332,7 +333,6 @@ uint64_t SipHashUint256Extra(uint64_t k0, uint64_t k1, const uint256& val, uint3
 /* ----------- Sgpr Hash ------------------------------------------------ */
 template<typename T1>
 inline uint256 HashX11(const T1 pbegin, const T1 pend)
-
 {
     sph_blake512_context     ctx_blake;
     sph_bmw512_context       ctx_bmw;
@@ -396,7 +396,6 @@ inline uint256 HashX11(const T1 pbegin, const T1 pend)
     return hash[10].trim256();
 }
 
-
 template<typename T1>
 inline uint256 Nist5(const T1 pbegin, const T1 pend)
 {
@@ -435,5 +434,4 @@ inline uint256 Nist5(const T1 pbegin, const T1 pend)
 
     return hash[4].trim256();
 }
-
 #endif // BITCOIN_HASH_H

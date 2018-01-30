@@ -23,7 +23,7 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/sgprpay/sgpr.git"
+- "url": "https://github.com/sgpr/sgprcore.git"
   "dir": "sgpr"
 files:
 - "MacOSX10.9.sdk.tar.gz"

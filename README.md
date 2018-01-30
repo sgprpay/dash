@@ -1,7 +1,7 @@
-Sgpr Core staging tree 0.12.2
+Sgpr staging tree 0.12.2
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/sgprpay/sgpr.svg?branch=master)](https://travis-ci.org/sgprpay/sgpr) `develop:` [![Build Status](https://travis-ci.org/sgprpay/sgpr.svg?branch=develop)](https://travis-ci.org/sgprpay/sgpr/branches)
+`master:` [![Build Status](https://travis-ci.org/sgpr/sgprcore.svg?branch=master)](https://travis-ci.org/sgpr/sgprcore) `develop:` [![Build Status](https://travis-ci.org/sgpr/sgprcore.svg?branch=develop)](https://travis-ci.org/sgpr/sgprcore/branches)
 
 https://www.sgprpay.com
 
@@ -12,25 +12,25 @@ What is Sgpr?
 Sgpr is an experimental new digital currency that enables anonymous, instant
 payments to anyone, anywhere in the world. Sgpr uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Sgpr Core is the name of the open
+are carried out collectively by the network. Sgpr is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Sgpr Core software, see https://www.sgprpay.com/get-sgpr/.
+the Sgpr software, see https://www.sgprpay.com/get-sgpr/.
 
 
 License
 -------
 
-Sgpr Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Sgpr is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/sgprpay/sgpr/tags) are created to indicate new official,
-stable release versions of Sgpr Core.
+[Tags](https://github.com/sgpr/sgprcore/tags) are created to indicate new official,
+stable release versions of Sgpr.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -66,7 +66,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Sgpr Core's Transifex page](https://www.transifex.com/projects/p/sgpr/).
+[Sgpr's Transifex page](https://www.transifex.com/projects/p/sgpr/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Chiudi applicazione</translation>
     </message>
     <message>
-        <source>&amp;About Sgpr Core</source>
-        <translation>&amp;Su Sgpr Core</translation>
+        <source>&amp;About Sgpr</source>
+        <translation>&amp;Su Sgpr</translation>
     </message>
     <message>
-        <source>Show information about Sgpr Core</source>
-        <translation>Mostra la informazione su Sgpr Core</translation>
+        <source>Show information about Sgpr</source>
+        <translation>Mostra la informazione su Sgpr</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -443,16 +443,16 @@
         <translation>Opzioni riga di &amp;comando</translation>
     </message>
     <message>
-        <source>Sgpr Core client</source>
-        <translation>Cliente Sgpr Core</translation>
+        <source>Sgpr client</source>
+        <translation>Cliente Sgpr</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>Processato %n blocco della cronologia transazioni.</numerusform><numerusform>Processati %n blocchi della cronologia transazioni.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Sgpr Core help message to get a list with possible Sgpr command-line options</source>
-        <translation>Mostra il messaggio di aiuto di Sgpr Core per ottenere una lista con le possibili opzioni di linea di comando di Sgpr</translation>
+        <source>Show the Sgpr help message to get a list with possible Sgpr command-line options</source>
+        <translation>Mostra il messaggio di aiuto di Sgpr per ottenere una lista con le possibili opzioni di linea di comando di Sgpr</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -958,16 +958,16 @@ Indirizzo: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versione</translation>
     </message>
     <message>
-        <source>About Sgpr Core</source>
-        <translation>Su Sgpr Core</translation>
+        <source>About Sgpr</source>
+        <translation>Su Sgpr</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1013,16 +1013,16 @@ Indirizzo: %4
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to Sgpr Core.</source>
-        <translation>Benvenuto in Sgpr Core</translation>
+        <source>Welcome to Sgpr.</source>
+        <translation>Benvenuto in Sgpr</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</source>
-        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Sgpr Core memorizzerà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sgpr will store its data.</source>
+        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Sgpr memorizzerà i propri dati.</translation>
     </message>
     <message>
-        <source>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sgpr Core scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
+        <source>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sgpr scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1033,8 +1033,8 @@ Indirizzo: %4
         <translation>Usa una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1088,7 +1088,7 @@ Indirizzo: %4
     </message>
     <message>
         <source>Automatically start Sgpr after logging in to the system.</source>
-        <translation>Esegui automaticamente Sgpr Core all'avvio del sistema.</translation>
+        <translation>Esegui automaticamente Sgpr all'avvio del sistema.</translation>
     </message>
     <message>
         <source>&amp;Start Sgpr on system login</source>
@@ -2428,8 +2428,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sgpr Core is shutting down...</source>
-        <translation>Sgpr Core si sta chiudendo...</translation>
+        <source>Sgpr is shutting down...</source>
+        <translation>Sgpr si sta chiudendo...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2578,8 +2578,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2590,8 +2590,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Gli sviluppatori di Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Sgpr Core developers</source>
-        <translation>Gli sviluppatori di Sgpr Core</translation>
+        <source>The Sgpr developers</source>
+        <translation>Gli sviluppatori di Sgpr</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3164,8 +3164,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Associa all'indirizzo indicato e resta permanentemente in ascolto su questo. Usa la notazione [host]:porta per l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</source>
-        <translation>Impossibile ottenere un blocco sulla data directory %s. Sgpr Core è probabilmente già in esecuzione.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</source>
+        <translation>Impossibile ottenere un blocco sulla data directory %s. Sgpr è probabilmente già in esecuzione.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3220,8 +3220,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sgpr Core is probably already running.</source>
-        <translation>Incapace di legare al %s su questo computer. Sgpr Core è probabilmente già funzionato.</translation>
+        <source>Unable to bind to %s on this computer. Sgpr is probably already running.</source>
+        <translation>Incapace di legare al %s su questo computer. Sgpr è probabilmente già funzionato.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3468,8 +3468,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore di connessione al Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr Core</source>
-        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Sgpr Core piú recente.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr</source>
+        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Sgpr piú recente.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3508,8 +3508,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Informazioni</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sgpr Core is shutting down.</source>
-        <translation>Controllo di inizializzazione sanity fallito. Sgpr Core verrà chiuso.</translation>
+        <source>Initialization sanity check failed. Sgpr is shutting down.</source>
+        <translation>Controllo di inizializzazione sanity fallito. Sgpr verrà chiuso.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

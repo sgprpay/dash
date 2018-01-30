@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core
+        <source>Sgpr</source>
+        <translation>Sgpr
 </translation>
     </message>
     <message>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About Sgpr Core</source>
-        <translation>&amp;Om Sgpr Core</translation>
+        <source>&amp;About Sgpr</source>
+        <translation>&amp;Om Sgpr</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -412,8 +412,8 @@
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the Sgpr Core help message to get a list with possible Sgpr command-line options</source>
-        <translation>Visa Sgpr Core-hjälpmeddelandet för att få en lista med möjliga Sgpr-kommandoradalternativ</translation>
+        <source>Show the Sgpr help message to get a list with possible Sgpr command-line options</source>
+        <translation>Visa Sgpr-hjälpmeddelandet för att få en lista med möjliga Sgpr-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core
+        <source>Sgpr</source>
+        <translation>Sgpr
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Sgpr Core.</source>
-        <translation>Välkommen till Sgpr Core.</translation>
+        <source>Welcome to Sgpr.</source>
+        <translation>Välkommen till Sgpr.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var Sgpr Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sgpr will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var Sgpr ska lagra sin data.</translation>
     </message>
     <message>
-        <source>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sgpr Core kommer att laddas ned och lagra en kopia av Sgpr:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sgpr kommer att laddas ned och lagra en kopia av Sgpr:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sgpr Core is shutting down...</source>
-        <translation>Sgpr Core stängs ned...</translation>
+        <source>Sgpr is shutting down...</source>
+        <translation>Sgpr stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core
+        <source>Sgpr</source>
+        <translation>Sgpr
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The Sgpr Core developers</source>
-        <translation>Sgpr Core-utvecklarna</translation>
+        <source>The Sgpr developers</source>
+        <translation>Sgpr-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2662,8 +2662,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. Sgpr Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. Sgpr körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2718,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sgpr Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. Sgpr Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Sgpr is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. Sgpr körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sgpr Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. Sgpr Core stängs ned.</translation>
+        <source>Initialization sanity check failed. Sgpr is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. Sgpr stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

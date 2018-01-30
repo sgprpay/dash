@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2017 The Sgpr Core developers
+// Copyright (c) 2014-2018 The Dash developers
+// Copyright (c) 2018-2018 The Sgpr developers
 // Distributed under the MIT software license, see the accompanying
 #ifndef SGPR_HDCHAIN_H
 #define SGPR_HDCHAIN_H

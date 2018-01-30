@@ -17,7 +17,7 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Sgpr"
-            VALUE "FileDescription",    "sgpr-cli (JSON-RPC client for Sgpr Core)"
+            VALUE "FileDescription",    "sgpr-cli (JSON-RPC client for Sgpr)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "sgpr-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR

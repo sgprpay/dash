@@ -1,7 +1,7 @@
-Sgpr Core 0.12.1
+Sgpr 0.12.1
 =====================
 
-This is the official reference wallet for Sgpr digital currency and comprises the backbone of the Sgpr peer-to-peer network. You can [download Sgpr Core](https://www.sgprpay.com/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Sgpr digital currency and comprises the backbone of the Sgpr peer-to-peer network. You can [download Sgpr](https://www.sgprpay.com/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -24,14 +24,14 @@ Drag Sgpr-Qt to your applications folder, and then run Sgpr-Qt.
 
 ### Need Help?
 
-* See the [Sgpr documentation](https://sgprpay.atlassian.net/wiki/display/DOC)
+* See the [Sgpr documentation](https://fexchange.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#sgprpay](http://webchat.freenode.net?channels=sgprpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=sgprpay).
+* Ask for help on [#fexchange](http://webchat.freenode.net?channels=fexchange) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=fexchange).
 * Ask for help on the [SgprTalk](https://sgprtalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Sgpr Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Sgpr on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Sgpr Core on your native platf
 
 Development
 ---------------------
-The Sgpr Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Sgpr repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -58,7 +58,7 @@ The Sgpr Core repo's [root README](/README.md) contains relevant information on 
 
 ### Resources
 * Discuss on the [SgprTalk](https://sgprtalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#sgprpay](http://webchat.freenode.net/?channels=sgprpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=sgprpay).
+* Discuss on [#fexchange](http://webchat.freenode.net/?channels=fexchange) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=fexchange).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

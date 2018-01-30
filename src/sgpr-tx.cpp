@@ -52,7 +52,7 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Sgpr Core sgpr-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Sgpr sgpr-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
               "  sgpr-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded sgpr transaction") + "\n" +
               "  sgpr-tx [options] -create [commands]   " + _("Create hex-encoded sgpr transaction") + "\n" +

@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstantSend
 
 This mechanism has been integrated into Bitcore-Node-Sgpr which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/sgprpay/insight-api-sgpr#web-socket-api](https://github.com/sgprpay/insight-api-sgpr#web-socket-api)
-* API: [https://github.com/sgprpay/insight-api-sgpr#instantsend-transactions](https://github.com/sgprpay/insight-api-sgpr#instantsend-transactions)
+* WebSocket: [https://github.com/fexchange/insight-api-sgpr#web-socket-api](https://github.com/fexchange/insight-api-sgpr#web-socket-api)
+* API: [https://github.com/fexchange/insight-api-sgpr#instantsend-transactions](https://github.com/fexchange/insight-api-sgpr#instantsend-transactions)
 
 #### Command line option
 
@@ -27,13 +27,13 @@ When a wallet InstantSend transaction is successfully locked a shell command pro
 
 Details pertaining to an observed "Transaction Lock" can also be retrieved through RPC, it’s important however to understand the underlying mechanism.
 
-By default, the Sgpr Core daemon will launch using the following constant:
+By default, the Sgpr daemon will launch using the following constant:
 
 ```
 static const int DEFAULT_INSTANTSEND_DEPTH = 5;
 ```
 
-This value can be overridden by passing the following argument to the Sgpr Core daemon:
+This value can be overridden by passing the following argument to the Sgpr daemon:
 
 ```
 -instantsenddepth=<n>

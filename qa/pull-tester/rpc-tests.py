@@ -152,7 +152,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # NOTE: needs sgpr_hash to pass
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Sgpr Core
+    # 'replace-by-fee.py', # RBF is disabled in Sgpr
 ]
 
 def runtests():

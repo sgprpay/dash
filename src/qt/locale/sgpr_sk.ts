@@ -238,8 +238,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -298,12 +298,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Sgpr Core</source>
-        <translation>&amp;O Sgpr Core</translation>
+        <source>&amp;About Sgpr</source>
+        <translation>&amp;O Sgpr</translation>
     </message>
     <message>
-        <source>Show information about Sgpr Core</source>
-        <translation>Zobraziť informácie o Sgpr Core</translation>
+        <source>Show information about Sgpr</source>
+        <translation>Zobraziť informácie o Sgpr</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -318,8 +318,8 @@
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Sgpr Core</source>
-        <translation>Upraviť možnosti konfigurácie Sgpr Core</translation>
+        <source>Modify configuration options for Sgpr</source>
+        <translation>Upraviť možnosti konfigurácie Sgpr</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -502,8 +502,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
-        <source>Sgpr Core client</source>
-        <translation>Sgpr Core klient</translation>
+        <source>Sgpr client</source>
+        <translation>Sgpr klient</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Sgpr network</source>
@@ -966,8 +966,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>version</source>
@@ -978,8 +978,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sgpr Core</source>
-        <translation>O Sgpr Core</translation>
+        <source>About Sgpr</source>
+        <translation>O Sgpr</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1033,16 +1033,16 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Sgpr Core.</source>
-        <translation>Vitajte v Sgpr Core.</translation>
+        <source>Welcome to Sgpr.</source>
+        <translation>Vitajte v Sgpr.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sgpr Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Sgpr Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sgpr will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Sgpr ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Sgpr Core will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sgpr Core stiahne a uloží kópiu reťazca blokov Sgpr. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Sgpr will download and store a copy of the Sgpr block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sgpr stiahne a uloží kópiu reťazca blokov Sgpr. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1053,8 +1053,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1233,11 +1233,11 @@
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <source>Automatically start Sgpr Core after logging in to the system.</source>
-        <translation>Automaticky spustiť Sgpr Core po prihlásení do systému.</translation>
+        <source>Automatically start Sgpr after logging in to the system.</source>
+        <translation>Automaticky spustiť Sgpr po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start Sgpr Core on system login</source>
+        <source>&amp;Start Sgpr on system login</source>
         <translation>&amp;Spusť Sgpr po prihlásení do systému</translation>
     </message>
     <message>
@@ -1802,8 +1802,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -2802,7 +2802,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sgpr Core is shutting down...</source>
+        <source>Sgpr is shutting down...</source>
         <translation>Sgpr core sa vypína...</translation>
     </message>
     <message>
@@ -2952,8 +2952,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>[testovacia sieť]</translation>
     </message>
     <message>
-        <source>Sgpr Core</source>
-        <translation>Sgpr Core</translation>
+        <source>Sgpr</source>
+        <translation>Sgpr</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2964,8 +2964,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Sgpr Core developers</source>
-        <translation>Vývojári Sgpr Core</translation>
+        <source>The Sgpr developers</source>
+        <translation>Vývojári Sgpr</translation>
     </message>
 </context>
 <context>
@@ -3534,8 +3534,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sgpr Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Sgpr Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sgpr is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. Sgpr už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3574,8 +3574,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sgpr Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Sgpr Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. Sgpr is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Sgpr už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3834,7 +3834,7 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Autorské práva (C) 2009-%i Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Sgpr Core Developers</source>
+        <source>Copyright (C) 2014-%i The Sgpr Developers</source>
         <translation>Autorské práva (C) 2014-%i Vývojári jadra Sgpr</translation>
     </message>
     <message>
@@ -3846,8 +3846,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Sgpr Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sgpr</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Sgpr</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -3890,8 +3890,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Informácie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sgpr Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Sgpr Core sa vypína.</translation>
+        <source>Initialization sanity check failed. Sgpr is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. Sgpr sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4118,8 +4118,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Použiť testovaciu sieť</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sgpr Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Sgpr Core</translation>
+        <source>Wallet needed to be rewritten: restart Sgpr to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Sgpr</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4214,8 +4214,8 @@ https://www.transifex.com/projects/p/sgpr/</translation>
         <translation>Celkové maximum poplatkov (v %s) pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sgpr Core will not work properly.</source>
-        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Sgpr Core nebude pracovať správne.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Sgpr will not work properly.</source>
+        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Sgpr nebude pracovať správne.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

@@ -2,13 +2,13 @@
 ====================
 
 
-Sgpr Core version 0.12.0 is now available from:
+Sgpr version 0.12.0 is now available from:
 
-  https://sgprpay.io/downloads
+  https://fexchange.io/downloads
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/sgprpay/sgpr/issues
+  https://github.com/sgpr/sgprcore/issues
 
 
 How to Upgrade
@@ -28,7 +28,7 @@ Downgrade warning
 
 Because release 0.12.0 and later makes use of headers-first synchronization and
 parallel block download (see further), the block files and databases are not
-backwards-compatible with pre-0.12 versions of Sgpr Core or other software:
+backwards-compatible with pre-0.12 versions of Sgpr or other software:
 
 * Blocks will be stored on disk out of order (in the order they are
 received, really), which makes it incompatible with some tools or

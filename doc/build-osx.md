@@ -36,14 +36,14 @@ Instructions: Homebrew
 
 NOTE: Building with Qt4 is still supported, however, doing so could result in a broken UI. Therefore, building with Qt5 is recommended. Be aware that Qt5 5.7+ requires C++11 compiler support.
 
-### Building Sgpr Core
+### Building Sgpr
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
-        git clone https://github.com/sgprpay/sgpr.git
+        git clone https://github.com/sgpr/sgprcore.git
         cd sgpr
 
-2.  Build Sgpr Core:
+2.  Build Sgpr:
     This will configure and build the headless sgpr binaries as well as the gui (if Qt is found).
     You can disable the gui build by passing `--without-gui` to configure.
 
@@ -81,7 +81,7 @@ You can ignore this section if you are building `sgprd` for your own use.
 
 sgprd/sgpr-cli binaries are not included in the Sgpr-Qt.app bundle.
 
-If you are building `sgprd` or `Sgpr Core` for others, your build machine should be set up
+If you are building `sgprd` or `Sgpr` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -90,7 +90,7 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Sgpr Core
+Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Sgpr
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running

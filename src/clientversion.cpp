@@ -13,7 +13,7 @@
  * for both sgprd and sgpr-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Sgpr Core");
+const std::string CLIENT_NAME("Sgpr");
 
 /**
  * Client version number
@@ -43,7 +43,7 @@ const std::string CLIENT_NAME("Sgpr Core");
 #endif
 
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
-#define GIT_ARCHIVE 1
+#define GIT_ARCHIVE 0
 #ifdef GIT_ARCHIVE
 #define GIT_COMMIT_ID "e596762ca22d"
 #define GIT_COMMIT_DATE "Thu, 11 Jan 2018 12:31:49 +0300"

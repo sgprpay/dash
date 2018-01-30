@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  sgprd The Sgpr Core server.
+#  sgprd The Sgpr server.
 #
 #
 # chkconfig: 345 80 20
