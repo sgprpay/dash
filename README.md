@@ -1,7 +1,7 @@
 Sgpr staging tree 0.12.2
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/sgpr/sgprcore.svg?branch=master)](https://travis-ci.org/sgpr/sgprcore) `develop:` [![Build Status](https://travis-ci.org/sgpr/sgprcore.svg?branch=develop)](https://travis-ci.org/sgpr/sgprcore/branches)
+`master:` [![Build Status](https://travis-ci.org/sgprpay/sgpr.svg?branch=master)](https://travis-ci.org/sgprpay/sgpr) `develop:` [![Build Status](https://travis-ci.org/sgprpay/sgpr.svg?branch=develop)](https://travis-ci.org/sgprpay/sgpr/branches)
 
 https://www.sgprpay.com
 
@@ -29,7 +29,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/sgpr/sgprcore/tags) are created to indicate new official,
+[Tags](https://github.com/sgprpay/sgpr/tags) are created to indicate new official,
 stable release versions of Sgpr.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

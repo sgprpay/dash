@@ -8,7 +8,7 @@ Sgpr version 0.12.0 is now available from:
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/sgpr/sgprcore/issues
+  https://github.com/sgprpay/sgpr/issues
 
 
 How to Upgrade
